@@ -1,0 +1,11 @@
+{
+  "namespace": "com.example.kafka.poc.model",
+  "name": "ExampleMessage",
+  "type": "record",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": "string"
+    }
+  ]
+}

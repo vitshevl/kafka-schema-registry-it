@@ -1,0 +1,7 @@
+com/example/kafka/poc/controllers/TestController.class
+com/example/kafka/poc/dto/MessageDto.class
+com/example/kafka/poc/model/ExampleMessage$Builder.class
+com/example/kafka/poc/service/impl/KafkaPoCServiceImpl.class
+com/example/kafka/poc/KafkaPoCApplication.class
+com/example/kafka/poc/model/ExampleMessage.class
+com/example/kafka/poc/service/KafkaPoCService.class
