@@ -42,7 +42,7 @@ public class KafkaPoCServiceImpl implements KafkaPoCService {
 
         exampleMessage.setTransactionId(msg);
 
-        var future = kafkaTemplate.send(VALID_TOPIC_NAME, exampleMessage);
+        var future = kafkaTemplate.send(BROKEN_TOPIC_NAME, exampleMessage);
         wait(future, exampleMessage);
     }
 
